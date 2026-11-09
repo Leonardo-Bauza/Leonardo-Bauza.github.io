@@ -2639,3 +2639,10 @@ input, select, textarea {
 				}
 
 	}
+
+#main > section.one { background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url("../../images/banner.jpg"); }
+#main > section.cover { min-height: 100vh; padding-top: 3em; }
+#main > section.cover h2.alt {
+	margin-top: 0; color: #fff; font-weight: 400;
+	text-shadow: 0 1px 3px rgba(0,0,0,.8), 0 0 14px rgba(0,0,0,.6);
+}
