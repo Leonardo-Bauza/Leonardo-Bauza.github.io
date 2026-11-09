@@ -2645,5 +2645,8 @@ input, select, textarea {
 #main > section.cover h2.alt {
 	margin-top: 0; color: #fff; font-weight: 400;
 	text-shadow: 0 1px 3px rgba(0,0,0,.8), 0 0 14px rgba(0,0,0,.6);
+}
 #main > section.cover h2.alt strong { font-weight: 600; }
+@media screen and (max-width: 960px( {
+	 #logo .image { position: relative; margin: 0 0 0.5em 0;}
 }
