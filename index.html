@@ -1,179 +1,99 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="es">
 	<head>
-		<title>Portfolio by Leonardo Bauza </title>
+		<title>Leonardo Bauza | Desarrollador fullstack freelance</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Leonardo Bauza, desarrollador fullstack freelance. Páginas web, sistemas y presencia digital para negocios." />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			#portfolio .item { text-align: left; margin-bottom: 2em; }
+			#portfolio .item p { font-size: 0.9em; }
+			#proyectos-mas { text-align: left; max-width: 42em; margin: 0 auto; }
+			#proyectos-mas li { margin-bottom: 0.8em; }
+		</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<div id="header">
-
 				<div class="top">
-
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar-cartoon-size01.jpg" alt="profile picture with toon vibes" /></span>
-							<h1 id="title">Leo Bauza</h1>
-							<p>Web Developer</p>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">	
-							<li><a href="https://github.com/Leonardo-Bauza" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/leobauza-bsas/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:leonardo-bauza@outlook.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					<div id="logo">
+						<span class="image avatar48"><img src="images/avatar-cartoon-size01.jpg" alt="Avatar de Leonardo Bauza" /></span>
+						<h1 id="title">Leonardo Bauza</h1>
+						<p>Desarrollador fullstack freelance</p>
+					</div>
+					<nav id="nav">
+						<ul>
+							<li><a href="#top" id="top-link"><span class="icon solid fa-home">Inicio</span></a></li>
+							<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Proyectos</span></a></li>
+							<li><a href="#about" id="about-link"><span class="icon solid fa-user">Sobre mí</span></a></li>
+							<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contacto</span></a></li>
 						</ul>
-
+					</nav>
 				</div>
-
+				<div class="bottom">
+					<ul class="icons">
+						<li><a href="https://github.com/Leonardo-Bauza" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/leonardo-bauza" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:contacto@leobauza.com.ar" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
 			</div>
 
 		<!-- Main -->
 			<div id="main">
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+				<section id="top" class="one dark cover">
+					<div class="container">
+						<header>
+							<h2 class="alt">Hola, soy <strong>Leonardo</strong>, desarrollador fullstack freelance. Hago páginas web, implemento sistemas y ayudo a negocios con su presencia digital. Cuando algo es nuevo para mí, lo aprendo y lo entrego.<br /><br /></h2>
+						</header>
+						<footer>
+							<a href="#portfolio" class="button scrolly">Ver proyectos</a>
+						</footer>
+					</div>
+				</section>
 
-							<header>
-								<h2 class="alt">Hola! Mi nombre es <strong>Leonardo</strong>, hago desarrollo web en HTML, CSS y JavaScript. Trabajo en proyectos freelance y colaboro con empresas y emprendimientos.<br /> <br /></h2>
-							</header>
+				<section id="portfolio" class="two">
+					<div class="container">
+						<header>
+							<h2>Proyectos</h2>
+						</header>
+						<p>Proyectos reales, en equipo y propios. Voy sumando más a medida que los dejo listos.</p>
+						<div class="row" id="proyectos-destacados"></div>
+						<h3 id="mas-titulo" hidden>Más proyectos</h3>
+						<ul id="proyectos-mas" class="default"></ul>
+						<noscript><p>Activá JavaScript para ver los proyectos.</p></noscript>
+					</div>
+				</section>
 
-							<footer>
-								<a href="#portfolio" class="button scrolly">Ver Portfolio</a>
-							</footer>
+				<section id="about" class="three">
+					<div class="container">
+						<header>
+							<h2>Sobre mí</h2>
+						</header>
+						<p>Me interesa ayudar a negocios y comunidades a mejorar su presencia online y a ordenar su trabajo con sistemas y automatizaciones. Trabajo como freelance o dentro de un equipo. Estudio la Tecnicatura Universitaria en Programación en la UTN.</p>
+					</div>
+				</section>
 
-						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<p>Mi principal fortaleza está en el diseño, creando interfaces que no solo son visualmente atractivas, sino también coherentes y fáciles de usar. Aun así, entiendo que la funcionalidad es el núcleo de cualquier sitio web, por lo que me aseguro de que cada elemento funcione de manera eficiente, dedicando el tiempo necesario para lograr una experiencia completa y efectiva.</p>
-
-							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/wip-puzzle.jpeg" alt="" /></a>
-										<header>
-											<h3>Ipsum Feugiat</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/wip-puzzle.jpeg" alt="" /></a>
-										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/wip-puzzle.jpeg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/wip-puzzle.jpeg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article>
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/wip-puzzle.jpeg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/wip-puzzle.jpeg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
-										</header>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<p> Mi objetivo es ayudar a negocios a mejorar su presencia online a través de un diseño funcional y atractivo.
-								Sin embargo, tambien me interesan las soluciones de facil acceso a la web, como landing pages para comunidades sin fines de lucro.
-								Me enfoco en brindar soluciones personalizadas, ya sea trabajando como freelancer o formando parte de un equipo de desarrollo.</p>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Si tienes un proyecto en mente o simplemente necesitas asesoría para mejorar tu sitio web, estaré encantado de ayudarte. No dudes en enviarme un mensaje y juntos encontraremos la mejor solución para tus necesidades.</p>
-
-							<form method="post" action="#">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
-						</div>
-					</section>
+				<section id="contact" class="four">
+					<div class="container">
+						<header>
+							<h2>Contacto</h2>
+						</header>
+						<p>Si tenés un proyecto en mente o necesitás asesoría para mejorar tu sitio, escribime y vemos cómo resolverlo.</p>
+						<a href="mailto:contacto@leobauza.com.ar" class="button">Escribime</a>
+					</div>
+				</section>
 
 			</div>
 
 		<!-- Footer -->
 			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="">HTML5</a></li>
-					</ul>
-
+				<ul class="copyright">
+					<li>&copy; Leonardo Bauza</li><li>Diseño base: <a href="https://html5up.net">HTML5 UP</a></li>
+				</ul>
 			</div>
 
 		<!-- Scripts -->
@@ -185,5 +105,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/visitas.js"></script>
+			<script src="assets/js/proyectos.js"></script>
 	</body>
 </html>
