@@ -818,7 +818,7 @@ input, select, textarea {
 				background-image: url("../../images/banner.jpg");
 			}
 
-			#main > section.two {
+			#main > section.two dark {
 				background-color: #1b1f22;
 			}
 
