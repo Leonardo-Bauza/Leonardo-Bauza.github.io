@@ -631,12 +631,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 		}
-		/*
-		#header .top {
-			flex-grow: 0;
-			flex-shrink: 0;
-		}*/
-
+		
 		#header .bottom {
 			-moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
