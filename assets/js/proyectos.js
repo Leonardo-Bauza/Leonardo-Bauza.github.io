@@ -12,20 +12,20 @@ const proyectos = [
     demo: "", repo: "", grupo: "destacado", visible: true
   },
   {
-    titulo: "Sorteos para PokemonGo Caseros",
+    titulo: "Sorteos con API Campfire",
     // CONFIRMAR este texto antes de publicar
-    texto: "Web app de sorteos para la comunidad de Caseros de Pokémon GO, que ya la usó. Basada en campfire-tools (topi314), con interfaz propia.",
-    extra: "Próximo paso: hacerla configurable para que sirva a todos los barrios.",
+    texto: "Web App de sorteos para los jugadores de Pokémon Go Caseros, ya activa! Basada en campfire-tools (topi314), implementé una interfaz propia e intuitiva para los organizadores de los eventos.",
+    extra: "Próximo paso: hacerla configurable para que sirva a todas las comunidades de Buenos Aires.",
     demo: "", repo: "", grupo: "destacado", visible: true
   },
   {
     titulo: "Machete-Pokedex",
-    texto: "Pokémon Family Tracker: gestiona la colección de la primera generación, diferenciando machos y hembras.",
+    texto: "Pokémon Family Tracker: gestiona la colección de la primera generación, diferenciando machos y hembras. Consulta la Poke-API",
     demo: "", repo: "https://github.com/Leonardo-Bauza/Machete-Pokedex", grupo: "mas", visible: true
   },
   {
     titulo: "bomberos-city",
-    texto: "Mi primer código: HTML y CSS, con un fondo animado que simula las llamas.",
+    texto: "Mi primer código: HTML y CSS, con un fondo latente.",
     demo: "", repo: "https://github.com/Leonardo-Bauza/bomberos-city", grupo: "mas", visible: true
   },
 
